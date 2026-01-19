@@ -1,1 +1,1 @@
-gradlew compile
+@echo off && gradlew compile
