@@ -1,0 +1,9 @@
+artifact "drako:compression-desktop"
+
+source {
+    include project(":drako:decoder-desktop")
+    include project(":drako:encoder-desktop")
+    include project(":drako:helpers-desktop")
+    include project(":drako:main-desktop")
+    include project(":drako:utils-desktop")
+}

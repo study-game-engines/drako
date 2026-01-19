@@ -16,5 +16,5 @@ pluginManagement {
 rootProject.name = "drako"
 apply from: "wrapper.gradle"
 
-artifact("library")
+artifact("libraries")
 artifact("tests")

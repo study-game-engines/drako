@@ -1,0 +1,5 @@
+artifact "drako:generated-desktop"
+
+source {
+    include project(":drako:main-desktop")
+}

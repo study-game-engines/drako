@@ -1,7 +1,0 @@
-artifact "drako-desktop"
-
-release {
-    examples()    
-}
-
-example("UnitTest1")

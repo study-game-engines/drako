@@ -1,0 +1,6 @@
+artifact "drako:utils-desktop"
+
+source {
+    include project(":drako:common-desktop")
+    include project(":drako:helpers-desktop")
+}

@@ -11,7 +11,7 @@ public class UnitTest1 {
 
     @Test
     public void decodeFromDrcFile() throws IOException, DrakoException {
-        byte[] cube = Files.readAllBytes(Paths.get("TestData/cube.drc"));
+        byte[] cube = Files.readAllBytes(Paths.get("D:/workspace/drako/tests/res/cube.drc"));
         DracoPointCloud dm = Draco.decode(cube);
         DracoEncodeOptions opt = new DracoEncodeOptions();
         byte[] bytes = Draco.encode(dm, opt);

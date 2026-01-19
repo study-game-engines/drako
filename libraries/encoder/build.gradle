@@ -1,0 +1,6 @@
+artifact "drako:encoder-desktop"
+
+source {
+    include project(":drako:helpers-desktop")
+    include project(":drako:utils-desktop")
+}

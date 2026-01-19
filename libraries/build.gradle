@@ -1,0 +1,13 @@
+artifact "drako-desktop"
+
+sourceSets.main {
+    java.srcDirs = [
+        "compression/src",
+        "decoder/src",
+        "encoder/src",
+        "generated/src",
+        "helpers/src",
+        "main/src",
+        "utils/src",
+    ]
+}

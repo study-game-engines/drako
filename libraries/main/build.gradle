@@ -1,0 +1,7 @@
+artifact "drako:main-desktop"
+
+source {
+//    include project(":drako:encoder-desktop")
+//    include project(":drako:decoder-desktop")
+    include project(":drako:common-desktop")
+}

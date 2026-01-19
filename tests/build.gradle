@@ -6,3 +6,7 @@ source {
     include "junit:junit:4.13.1"
 //    include "com.featurea:process:0.0.12"
 }
+
+sourceSets.main {
+    resources.srcDirs = ["res"]
+}
