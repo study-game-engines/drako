@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        google()
+    }
+}
+
+plugins {
+    id "featurea" version "$featurea_version" apply false
+}
+
+repositories {
+    mavenCentral()
+    google()
+    maven { url "https://jitpack.io" }
+    maven { url "https://jogamp.org/deployment/maven" }
+}
+
+subprojects {
+    apply plugin: "featurea"
+}
